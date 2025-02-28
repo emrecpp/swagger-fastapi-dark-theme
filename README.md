@@ -20,8 +20,13 @@ A custom CSS file that provides a dark theme and larger text for **Swagger UI** 
 2. Open your FastAPI docs page (Swagger UI).
 3. Click on the **Stylus extension** and select **"Create new style"**.
 4. Copy and paste all CSS code from the CSS file ([this link](https://raw.githubusercontent.com/emrecpp/swagger-fastapi-dark-theme/refs/heads/main/purple-dark-theme.css)) into the editor.
-5. Click save.
-6. Tada! 🎉🥳 That's all there is to it.
+5. Add the following URLs to the *"Applies to"* section in Stylus to ensure the CSS is applied to your local FastAPI Swagger UI:   
+   `http://localhost`   
+   `http://127.0.0.1`
+   
+   or your custom domain (https://mydomain.com)
+7. Click save.
+8. Tada! 🎉🥳 That's all there is to it.
 
 ![Stylus Setup](/screenshoots/stylus-setup.png)
 
