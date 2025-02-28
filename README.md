@@ -1,4 +1,4 @@
-# Swagger FastAPI Dark Theme
+# 🌃 Swagger FastAPI Dark Theme
 
 A custom CSS file that provides a dark theme and larger text for **Swagger UI** documentation pages in **FastAPI** applications.
 
